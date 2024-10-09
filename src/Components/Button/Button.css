@@ -1,0 +1,10 @@
+button:not(.navbar-toggler) {
+    width: 180px;
+    height: 60px;
+    transition: 0.5s all;
+    background-color: hsl(136, 65%, 51%) !important;
+}
+
+button:not(.navbar-toggler):hover {
+    background-image: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+}

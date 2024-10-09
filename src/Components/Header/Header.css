@@ -1,0 +1,81 @@
+header {
+    overflow: hidden;
+}
+
+.headerContent {
+    height: calc(100%)   ;
+}
+
+.headerContent div {
+    width: 40%;
+}
+
+.headerContent div h1 {
+    font-size: 65px;
+}
+
+.headerContent div p {
+    margin-bottom: 20px;
+}
+
+.headerContent figure {
+    width: 50%;
+    height: 100%;
+    background-size: 150% 120%;
+    background-image: url("../../assets/bg-intro-desktop.svg");
+}
+
+.mobile {
+    margin-top: 20px;
+    height: 100%;
+    width: 75%;
+}
+
+@media only screen and (max-width:992px) {
+    .headerContent {
+        flex-direction: column-reverse;
+    }
+    .headerContent>div {
+        padding: 50px !important;
+        height: 45%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .headerContent figure {
+        width: 100%;
+        height: 55%;
+        display: flex;
+        justify-content: center;
+        background-size: 150% 100% ;
+    }
+
+    .headerContent figure img {
+        width: 80%;
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    .headerContent div h1 {
+        font-size: 30px;
+        margin-top: -60px;
+    }
+
+    .mybutton {
+        width: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerContent .mbt {
+        width: 200px !important;
+        height: 50px;
+    }
+
+    .headerContent .mbt button {
+        height: 50px;
+        margin-bottom: 30px;
+    }
+}

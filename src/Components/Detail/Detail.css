@@ -1,0 +1,9 @@
+@media only screen and (max-width:769px) {
+    .detContent {
+        text-align: center;
+    }
+
+    .row div {
+        padding: 0px !important;
+    }
+}

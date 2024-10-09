@@ -1,0 +1,19 @@
+.aboutp {
+    width: 50%;
+}
+
+@media only screen and (max-width:769px) {
+    .about p {
+        width: 100%;
+        text-align: center;
+        padding: 0px !important;
+    }
+    .about h2 {
+        width: 100%;
+        padding: 0px !important;
+    }
+    .about>div {
+        width: 100%;
+        padding: 0px !important;
+    }
+}

@@ -1,0 +1,37 @@
+nav button:not(.navbar-toggler) {
+    margin-left: 100% !important;
+}
+
+nav ul {
+    width: 50%;
+}
+
+ul li {
+    opacity: 60%;
+    border-bottom: 5px solid transparent;
+    transition: 0.2s all;
+}
+
+ul li:hover {
+    opacity: 100%;
+    border-bottom: 5px solid hsl(136, 65%, 51%);
+}
+
+@media only screen and (max-width:992px) {
+    nav button:not(.navbar-toggler) {
+        display: none; 
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center ;
+    }
+
+    nav ul li {
+        border: 0px;
+    }
+
+    nav ul li:hover {
+        border: 0px;
+    }
+}
